@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/story.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<style>
+    td {
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+        width: 50%;
+        font-family: Fira Sans;
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    i {
+        margin: 5px;
+    }
+
+    a:any-link {
+        text-decoration: none;
+        color: black;
+    }
+</style>
+
+<body>
+    <span id="content" style="display:none;">
+        <!--Navigation bar-->
+
+        <div id="nav-placeholder">
+
+        </div>
+        <div class="container" style="display:flex; height:100%; width:100%;justify-content:center; margin-top:10%;background-color:white;">
+            <div id="row contact" style=" width:50%">
+                <div class="col-sm-12 col-md-12 col-lg-12"  style="margin-bottom:40px;">
+                    <span class="medium-description-title" style="display:block;font-family:Pacifico;font-size:70px;text-align:center;">
+                        <span style="padding: 5px 15px 5px 10px;color:black;" align=center>Find me!</span>
+                    </span>
+                </div>
+                <span class="medium-description" style="display:block;font-family:Fira Sans; font-size: 35px; font-weight:200;">
+                    <div class="row" style="margin-bottom:40px;">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="text-align:center;">
+                                    <a href="https://www.linkedin.com/in/harshilshah4251/" target="_blank">
+                                        <i class="fab fa-linkedin"></i>LinkedIn</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="text-align:center;">
+                                    <a href="https://github.com/harshilshah4251" target="_blank">
+                                        <i class="fab fa-github"></i>Github</a>
+                            </div>
+                    </div>
+                   <div class="row" style="margin-bottom:40px;">
+                        <div class="col-sm-12 col-md-6 col-lg-6" style="text-align:center;">
+                                <a href="https://www.facebook.com/harshilshah4251" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>Facebook</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6" style="text-align:center;">
+                                <i class="fas fa-phone"></i>762.436.2848</td>
+                        </div>
+                   </div>
+                    <div class="row" style="margin-bottom:40px;">
+                            <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:center;">
+                                    <a href="mailto:harshilshah4251@gmail.com">
+                                            <i class="fas fa-envelope"></i>harshilshah4251@gmail.com</a>
+                            </div>
+                    </div>
+                    
+
+
+                </span>
+
+            </div>
+
+
+        </div>
+    </span>
+</body>
+<script>
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+    });
+
+    $(document).ready(function () {
+        $("#content").fadeIn(1000);
+    });
+</script>
+
+</html>

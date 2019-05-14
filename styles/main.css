@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i');
+
+body{
+    background-color: white;
+    height:100%;
+}
+
+.navbar-default{
+    min-height: 80px;
+
+}
+.navbar-nav li a,
+.navbar-brand,
+.navbar-toggle {
+    line-height: 50px;
+}
+button.navbar-btn{
+    margin-top:25px
+  } 
+
+.nav-links{
+    color:black;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 100;
+    transition: color .2s ease-in-out;
+}
+
+.nav-links:hover{
+    color: darkred;
+    cursor: pointer;
+}
+
+.nav-brand{
+    color:black;
+    font-family:  'Montserrat', sans-serif;
+}
+
+.row-fluid{
+    height:100%;
+    vertical-align: middle;
+}
+
+.heading-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+.medium-heading-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+.description-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    line-height: 2;
+}
+.small-description-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    line-height: 1.4;
+}
+
+.small-italics-description-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    line-height: 1;
+    font-style: italic;
+}
+
+.small-bold-description-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    line-height: 1;
+    font-weight: 600;
+}
+
